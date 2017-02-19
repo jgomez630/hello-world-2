@@ -1,0 +1,75 @@
+GIT: is a distributed version control system (DVCS)
+git basic commands(CodeSchool "Try Git")
+---------------------------------------------------------------------
+git init // initialize a local repo
+git status // displays current state of project
+git add // add files to staging
+git commit -m "<message>"
+git log // displays history changes
+git remote add origin <repo url> //adds a git hub remote path
+git push -u origin master // push a local repo to GitHub *-u tells Git to remember the parameters so next you can just type "git push
+"
+git pull // pulls down latest changes
+git diff // shows all changes from last commit
+git diff HEAD //show only most recent
+git diff --stage //shows recent staged changes 
+git reset <file> // removes files from staging
+git checkout -- <target> // undo all changes since last commit
+git branch <new branch file>// creates a new branch
+git checkout <branch> // move to branch
+git rm <file> // removes a file
+git rm '*.txt' // removes all .txt at once
+git checkout master // move to master branch 
+git merge <branch name> // to merge a branch into master
+git branch -d <branch name> // to delete a branch
+--------------------------------------------------------------------
+Level 2 Staging and remotes
+--------------------------------------------------------------------
+git diff
+git diff --staged
+git reset HEAD <file> //unstaging files
+git checkout -- <file>//restoring files
+git commit -a -m "message"//skip staging & commit
+git reset --soft HEAD^//undo last commit
+git commit --amend -m "message"//add to the last commit
+git reset --hard HEAD^//undo last commit & all changes
+git reset --hard HEAD^^//undo last two commits & all changes.
+git remote add origin https://github.com/jgomez630/desolve.git//add remotes
+git push -u origin master//pushing to remote
+git remote -v//show remote repos
+git pull // to pull changes down from remote
+git remote rm <name> // to remove remote 
+
+heroku remote
+heroku create
+-------------------------------------------------------------------
+Level 3 Branching
+git clone <url>// clone repo
+git branch // to check branch status
+git branch <file>// it's best to create a branch after cloning
+git checkout <file>// to move to the new branch
+git checkout master //to move to master branch
+git merge <file>//to merge branch into the master(Fast-forward)
+git branch -d <file>// deletes branch
+
+git checkout -b <file>//creates & checkouts branch in one command switches to a new branch.
+To work on a fix
+-------------------------------------------------------------------
+git checkout master//to switch to master branch
+git branch//
+git pull// to pull the latest changes
+git checkout branch
+git add <file>
+git commit -m <message>
+git push
+
+:wq//to exit out of Vim editor
+-------------------------------------------------------------------
+Level 4 Collaboration
+git clone <file>
+git status
+git add --all //adds all files
+git commit -m "message"
+git commit -am
+git pull
+git push	
