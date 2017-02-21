@@ -8,6 +8,6 @@
 * [Chapter 2: Into JavaScript](ch2.md)
 * [Chapter 3: Into YDKJS](ch3.md)
 * [Appendix A: Thank You's!](apA.md)
-*item 1
-*item 1
-*item 1
+* item 1
+* item 1
+* item 1
