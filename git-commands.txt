@@ -22,6 +22,7 @@ git rm '*.txt' // removes all .txt at once
 git checkout master // move to master branch 
 git merge <branch name> // to merge a branch into master
 git branch -d <branch name> // to delete a branch
+Testing branch
 --------------------------------------------------------------------
 Level 2 Staging and remotes
 --------------------------------------------------------------------
